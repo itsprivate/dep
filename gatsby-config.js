@@ -19,7 +19,7 @@ if (isDev) {
       branch: `main`,
       fetchOptions: ["--depth", 1],
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/redirect-newstop/**"],
+      patterns: ["data/*-placeholder/1.json", "data/reddit-depth/**"],
     },
   });
 } else {
@@ -31,7 +31,7 @@ if (isDev) {
       branch: `main`,
       fetchOptions: ["--depth", 1],
       // Only import the docs folder from a codebase.
-      patterns: ["data/*-placeholder/1.json", "data/redirect-newstop/**"],
+      patterns: ["data/*-placeholder/1.json", "data/reddit-depth/**"],
     },
   });
 }
@@ -41,7 +41,7 @@ plugins = plugins.concat([
     options: {
       tweetTypeName: ["TweetJson", "twitterStatusesUserTimelineMyTweet"],
       redditTypeName: ["RedditJson"],
-      issueTypeName: ["RedditTopIssuesJson"],
+      issueTypeName: ["DepthIssuesJson"],
       localesPath: localesPath,
       disqus: {
         shortname: "buzzingcc",
@@ -59,7 +59,7 @@ plugins = plugins.concat([
       background_color: `#f7f0eb`,
       theme_color: `#FF4500`,
       display: `standalone`,
-      icon: `src/images/icon.png`,
+      icon: `src/images/icon.jpg`,
       telegram: siteMetadata.telegram,
       telegram_chat_id: siteMetadata.telegram_chat_id,
       localize: siteMetadata.localize.map((item) => {
@@ -78,7 +78,7 @@ plugins = plugins.concat([
     options: {
       // You can add multiple tracking ids and a pageview event will be fired for all of them.
       trackingIds: [
-        "G-KQ0RWMXYT4", // Google Analytics / GA
+        "G-4HNV7X9ZSV", // Google Analytics / GA
       ],
     },
   },

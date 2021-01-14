@@ -1,11 +1,18 @@
 const siteMetadata = {
-  siteUrl: "https://news.buzzing.cc",
+  siteUrl: "https://depth.buzzing.cc",
   author: `Buzzing.cc`,
   locale: "zh",
-  title: "谷歌全球新闻头条",
-  shortTitle: "全球头条",
-  description: "用中文浏览谷歌全球新闻(西方媒体)头条",
-  keywords: ["buzzing", "西方媒体", "国外新闻", "世界新闻", "突发新闻"],
+  title: "深度思考",
+  shortTitle: "深度思考",
+  description: "用中文浏览国外深度报道，思考和讨论",
+  keywords: [
+    "buzzing",
+    "深度报道",
+    "深度思考",
+    "国外深度报道",
+    "深度好文",
+    "有深度的文章",
+  ],
   telegram: "@buzzingcc",
   telegram_chat_id: "-1001406368978",
   menuLinks: [
@@ -13,11 +20,6 @@ const siteMetadata = {
     //   name: "每周精选",
     //   url: "/issues",
     // },
-    {
-      name: "RSS",
-      url: "/rss.xml",
-      prefetch: false,
-    },
   ],
   subscriptions: [
     {
@@ -38,8 +40,13 @@ const siteMetadata = {
   ],
   social: [
     {
-      name: `Google News`,
-      url: `https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB`,
+      name: `Food For Thought`,
+      url: `https://www.reddit.com/r/Foodforthought/`,
+      external: true,
+    },
+    {
+      name: `True Reddit`,
+      url: `https://www.reddit.com/r/TrueReddit/`,
       external: true,
     },
     {
@@ -51,38 +58,35 @@ const siteMetadata = {
   localize: [
     {
       locale: "en",
-      title: `Buzzing on World News`,
-      shortTitle: "BuzzNews",
-      description: `See what's buzzing on Google World News Headline in your native language`,
-      keywords: ["buzzing", "Breaking News"],
+      title: `Buzzing on In-depth thinking`,
+      shortTitle: "BuzzDepth",
+      description: `See what's buzzing on In-depth thinking in your native language`,
+      keywords: ["buzzing", "In-depth thinking"],
       menuLinks: [
         // {
         //   name: "Weekly Selection",
         //   url: "/en/issues",
         // },
-        {
-          name: "RSS",
-          url: "/en/rss.xml",
-          prefetch: false,
-        },
       ],
     },
     {
       locale: "zh-Hant",
-      title: "谷歌全球新聞頭條",
-      shortTitle: "全球頭條",
-      description: "用中文瀏覽谷歌全球新聞(西方媒體)頭條",
-      keywords: ["buzzing", "西方媒體", "國外新聞", "世界新聞", "突發新聞"],
+      title: "深度思考",
+      shortTitle: "深度思考",
+      description: "用中文瀏覽國外深度報導，思考和討論",
+      keywords: [
+        "buzzing",
+        "深度報導",
+        "深度思考",
+        "國外深度報導",
+        "深度好文",
+        "有深度的文章",
+      ],
       menuLinks: [
         // {
         // name: "每週精選",
         // url: "/zh-Hant/issues",
         // },
-        {
-          name: "RSS",
-          url: "/zh-Hant/rss.xml",
-          prefetch: false,
-        },
       ],
     },
   ],
