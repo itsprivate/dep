@@ -89,6 +89,24 @@ const siteMetadata = {
         // },
       ],
     },
+    {
+      locale: "ja",
+      title: "深い思考人気の話し合います",
+      shortTitle: "深い思考",
+      description: "人気の深い思考記事を日本語で閲覧",
+      keywords: ["buzzing", "深い思考"],
+      menuLinks: [
+        // {
+        // name: "每週精選",
+        // url: "/zh-Hant/issues",
+        // },
+        // {
+        //   name: "RSS",
+        //   url: "/zh-Hant/rss.xml",
+        //   prefetch: false,
+        // },
+      ],
+    }
   ],
 };
 
