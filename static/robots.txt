@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://depth.buzzing.cc/sitemap/sitemap-index.xml
+Host: https://depth.buzzing.cc
